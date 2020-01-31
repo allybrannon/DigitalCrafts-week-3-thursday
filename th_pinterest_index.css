@@ -1,0 +1,40 @@
+html {
+    font-size: 24px;
+  }
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+.pictures{
+    margin: 0 auto;
+    max-width: 960px;
+ }
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    padding: 0;
+}
+  
+.pictures .photo {
+    border: solid 1px rgb(42, 104, 42);
+    flex: 1 0 300px;
+    list-style: none;
+    margin: 2px;
+    max-width: 320px;
+}
+  
+.photo img {
+    height: 100%;
+    width: 100%;
+}
+  
+@media screen and (min-width: 640px){
+    html {
+      font-size: 16px;
+    }
+}
+  
